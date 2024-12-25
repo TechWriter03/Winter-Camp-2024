@@ -1,0 +1,985 @@
+LAB 1
+
+Wisconsin State Fair is one of the largest midsummer celebrations in the Midwest Allis, showcasing the agriculture skills and prowess of
+the state. The Event organizers hired few part-time employees to work at the fair and the agreed salary paid to them are as given below:
+Weekdays --- 80 / hour
+Weekends --- 50 / hour
+Justin is a part-time employee working at the fair. Number of hours Justin has worked in the weekdays is 10 more than the number of
+hours he had worked during weekends. If the total salary paid to him in this month is known, write a program to estimate the number of
+hours he had worked during weekdays and the number of hours he had worked during weekends.
+Input Format :
+First line of the input is a double value that corresponds to the total salary paid to Justin.
+Output Format :
+First line of the output should display the number of hours Justin has worked during the weekdays.
+Second line of the output should display the number of hours Justin has worked during the weekends.
+Sample testcases :
+Testcase 1 Input
+2750
+Testcase 1 Output
+25
+15
+
+
+The prime functionality of an Event Management System is budgeting. An Event Management System should estimate the total
+expenses incurred by an event and the percentage rate of each of the expenses involved in planning and executing an event. Nikhil, the
+founder of "Pine Tree" wanted to include this functionality in his company’s Amphi Event Management System and requested your help
+in writing a program for the same.
+The program should get the branding expenses, travel expenses, food expenses and logistics expenses as input from the user and
+calculate the total expenses for an event and the percentage rate of each of these expenses.
+Input Format :
+First input is a double value that corresponds to the branding expenses.
+Second input is a double value that corresponds to the travel expenses.
+Third input is a double value that corresponds to the food expenses.
+Fourth input is a double value that corresponds to the logistics expenses.
+Output Format :
+First line of the output should display the double value that corresponds to the total expenses for the Event.
+Next four lines should display the percentage rate of each of the expenses.
+Round off the output to two decimal digits.
+Sample testcases :
+Testcase 1 Input
+20000
+40000
+15000
+25000
+Testcase 1 Output
+Total expenses : Rs.100000.00
+Branding expenses percentage : 20.00%
+Travel expenses percentage : 40.00%
+Food expenses percentage : 15.00%
+Logistics expenses percentage : 25.00%
+
+
+HelpIndia, a famous NGO has been selective in identifying events to raise funds for charity. Suzanne is a volunteer from the NGO who
+was selling tickets to the public for the charity event. She sold 'X' more adult tickets than children tickets and she sold twice as many
+senior tickets as children tickets. Assume that an adult ticket costs $5, children ticket costs $2 and senior ticket costs $3. Suzanne made
+'Y' dollars from ticket sales. Find the number of adult tickets, children tickets, and senior tickets sold.
+Input Format :
+The first input is an integer value X that corresponds to the number of adult tickets more than children tickets.
+The second input is an integer value Y that corresponds to the money in dollars made by Suzanne from ticket sales.
+Output Format :
+The first line of the output should display the number of children tickets sold.
+The second line of the output should display the number of adult tickets sold.
+The third line of the output should display the number of senior tickets sold.
+Sample testcases :
+Testcase 1 Input
+10
+700
+Testcase 1 Output
+Number of children tickets sold : 50
+Number of adult tickets sold : 60
+Number of senior tickets sold : 100
+
+
+Trade Fairs are important for companies to present their products and to get in touch with its customers and business parties. One such
+grandeur Trade Fair Event was organized by the Confederation of National Large Scale Industry.
+Number of people who attended the event on the first day was x. But as days progressed, the event gained good response and the
+number of people who attended the event on the second day was twice the number of people who attended on the first day.
+Unfortunately, due to heavy rains on the third day, the number of people who attended the event was exactly half the number of people
+who attended on the first day.
+Given the total number of people who have attended the event in the first 3 days, find the number of people who have attended the
+event on day 1, day 2 and day 3.
+Input Format :
+First line of the input is an integer value that corresponds to the total number of people.
+Output Format :
+First line of the output should display the number of attendees on day 1.
+Second line of the output should display the number of attendees on day 2.
+Third line of the output should display the number of attendees on day 3.
+Sample testcases :
+Testcase 1 Input
+10500
+Testcase 1 Output
+Number of attendees on day 1 : 3000
+Number of attendees on day 2 : 6000
+Number of attendees on day 3 : 1500
+
+
+LAB 2
+
+Mr. Jack is now playing some dice games. In this game, 2 dice are rolled.
+The score is calculated by summing the value on the 2 dice. However, when playing in special mode, if the number on both dice are
+equal, then one value is incremented, wrapping around to 1 if its value was 6.
+Write a program to calculate the score. The inputs are 2 integers and 1 boolean. Each integer has the value of one of the dice. The
+boolean is true if the special mode is being played, otherwise it is false. You have to print the score depending on the values.
+Use the System.out.println() statement for printing.
+Example Input: 4 3 false
+Output: 7
+Example Input: 4 4 false
+Output: 8
+Example Input: 4 4 true
+Output: 9
+Example Input: 6 6 true
+Output: 7
+
+
+Dr. CooCoo has a new obsession: crazy numbers. A number is crazy if it is either a multiple of 13 or if it is one more than a multiple of
+13.
+Write a program that takes an integer and prints Crazy if a number is crazy. Otherwise it prints Not Crazy.
+Use the System.out.println() statement for printing.
+Example Input: 13
+Output: Crazy
+Example Input: 27
+Output: Crazy
+Example Input: 42
+Output: Not Crazy
+
+
+You and your friend are movie fans and want to predict if the movie is going to be a hit!
+The movie’s success formula depends on 2 parameters:
+·         the acting power of the actor (range 0 to 10)
+· the critic’s rating of the movie (range 0 to 10)
+The movie is a hit if the acting power is excellent (more than 8) or the rating is excellent (more than 8). This holds true except if either
+the acting power is poor (less than 2) or rating is poor (less than 2), then the movie is a flop. Otherwise the movie is average.
+Write a program that takes 2 integers:
+·         the first integer is the acting power
+· second integer is the critic’s rating.
+You have to print Yes if the movie is a hit, Maybe if the movie is average and No if the movie is flop.
+Example input: 9 5
+Output: Yes
+Example input: 1 9
+Output: No
+Example input: 6 4
+Output: Maybe
+
+
+Pooja just got a new cellphone. She carries it everywhere, even to her morning college classes.
+She normally answers calls, except in the morning. In the morning she answers only if her Mom calls. However she never answers any
+calls when she is sleeping.
+Write a program that takes in 3 boolean inputs:
+·         the first boolean is true if it is morning and false if it is not morning
+· the second boolean is true if her mom is calling and false if her mom is not calling
+· the third boolean is true if she is sleeping and false if she is not sleeping
+You have to print True if Pooja will answer the call and False if she will not answer it.
+Use the System.out.println() statement for printing.
+Example Input: true false false
+Output: False
+Example Input: true true false
+Output: True
+Example Input: false true true
+Output: False
+
+
+LAB 3
+
+Write a program that takes input a positive integer n.
+You have to print the largest power of 2 less than or equal to n.
+For example, for 10 the largest power of 2 less than or equal to 10 is 8. For 64 largest power of 2 less than or equal to it is 64
+Hint: instead of doing ++ in your loops, can you think of a different operator?
+Example Input: 1
+Output: 1
+Example Input: 5
+Output: 4
+Example Input: 10000
+Output: 8192
+
+
+Consider a sequence of the form 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149…
+Write a program which takes input an integer n and prints the nth term of the above sequence. The nth term will fit in an integer value.
+Hint: Does this pattern look familiar? Remember the logic for Fibonacci series?
+Example Input: 5
+Output: 4
+Example Input: 8
+Output: 24
+Example Input: 11
+Output: 149
+
+
+Write a program that prints a simple chessboard. You have to read the the size of the chessboard from stdin. Print W for white spaces
+and B for black spaces.
+Input format: The first line contains the number of inputs. The lines after that contain a different values for size of the chessboard
+Example Input:
+2
+3
+5
+Output:
+WBW
+BWB
+WBW
+WBWBW
+BWBWB
+WBWBW
+BWBWB
+WBWBW
+What does this mean?
+Here 2 is the number of inputs.
+3 is the first input, and the output for it is
+WBW
+BWB
+WBW
+After that, the output for 5 is:
+WBWBW
+BWBWB
+WBWBW
+BWBWB
+WBWBW
+Notice, in the chessboard, the first row’s character is W and all the characters after that are alternating.
+
+
+Write a program that takes input an integer n.
+You have to print the number of zeros at the end of the factorial of n.
+For example, 3! = 6. The number of zeros are 0. 5! = 120. The number of zeros at the end are 1.
+Hint: Think about which numbers multiplication leads to a 0 at the end
+Note: n! < 10^5
+Example Input: 3
+Output: 0
+Example Input: 60
+Output: 14
+Example Input: 100
+Output: 24
+Example Input: 1024
+Output: 253
+
+
+LAB 4
+
+Dr. CooCoo has demanded another weird array!
+Given a number n, she wants an array of the following pattern:
+n   Array
+2   1 1 2
+3   1 1 2 1 2 3
+4   1 1 2 1 2 3 1 2 3 4
+And so on…
+The number of elements for any n will be n*(n+1)/2
+Note: n is greater than or equal to 0
+Write a program that takes input an integer n and returns the required array.
+Example Input: 2
+Output: 1 1 2
+Example Input: 4
+Output: 1 1 2 1 2 3 1 2 3 4
+
+
+Dr. CooCoo is demanding some weird arrays. This is what she wants:
+Given a number n, she wants an array of size n*n with the elements as follows:
+n   Array
+2   0 1 2 1
+3   0 0 1 0 2 1 3 2 1
+4   0 0 0 1 0 0 2 1 0 3 2 1 4 3 2 1
+And so on…
+Note: n is greater than or equal to 2
+Write a program that takes input an integer n and returns the required array.
+Example Input: 2
+Output: 0 1 2 1
+Example Input: 4
+Output: 0 0 0 1 0 0 2 1 0 3 2 1 4 3 2 1
+
+
+Dr. CooCoo has a new term: reflections.
+She says that, in an array, a reflection section are those elements that are:
+· Group of continuous elements
+· The group appears somewhere in the array in backwards order
+You have to find the length of the longest such reflection section.
+For example: in the array, 4 5 7 2 1 7 5 4, the longest reflection section is 4 5 7 and it’s size is 3.
+Write a program that takes input an integer array and prints the length of the largest reflection section.
+The Met method has to be inside a Solution class. Please check the code editor for the ideal method definition.
+Example Input:
+8
+4 5 7 2 1 7 5 4
+Output: 3
+Example Input:
+10
+10 9 8 7 1 2 7 8 9 10
+Output: 4
+Example Input:
+4
+1 2 1 4
+Output: 3
+Example Input:
+9
+3 3 3 5 3 3 3 1 1
+Output: 7
+
+
+Mr. Jack is now judging arrays! He wants to see if an array can be split. He wants to split it only if the sum of the array on one side is
+equal to sum of the array on the other side.
+For example, in the array: 1 1 1 2 1, it can be split such that 1 1 1 are on one side and 2 1 are on the other side. However the array 2 1 1 2
+1 can’t be split.
+Write a program that accepts input an integer array and prints true if the array can be split, otherwise it prints false.
+Note: the array will be of length greater than 1.
+Example Input:
+5
+1 1 1 2 1
+Output: true
+Example Input:
+5
+2 1 1 2 1
+Output: false
+Example Input:
+2
+10 10
+Output: true
+Example Input:
+6
+4 3 1 1 1 4
+Output: true
+
+LAB 5
+
+Mr. Jack has a new passion: farming. Has a simple request from you: given a farm map, find the longest sequence of consecutive
+vegetables in his farm, either in the same row, or vertically or diagonally.
+Write a program that takes as input a 2D character array, which stores the map. You have to print out the value of the longest sequence.
+Note: * is grass and V is vegetable
+Example Input:
+3 4
+* * * *
+* V V *
+* * * *
+Example Output:
+2
+Example Input:
+3 4
+* V V V
+* V V *
+* * * *
+Example Output:
+3
+
+
+Dr. CooCoo is going trekking. She wants to climb all the peaks possible in a given map. You have to tell her the number of peaks she has
+to climb.
+A map contains the heights of the different points on the ground. A point is a peak if the immediate points to it's north, south, east and
+west all have a lesser height than it.
+Write a program that takes as input a 2D array, containing the map, and prints the number of peaks in that map.
+Example Input:
+3 3
+1 0 2
+3 1 0
+0 0 0
+Example Output:
+2
+Example Input:
+4 4
+1 0 0 1
+0 0 0 0
+0 0 0 0
+1 0 1 0
+Example Output:
+4
+
+
+Mr. Jack has a problem in his garden. If any two flowers in his garden are adjacent either in row, column or diagonal, then they will attack
+each other.
+Given a garden map, you have to tell Mr. Jack if the plants will attack or not.
+Write a program that takes input a 2D character array. Print Attack if the map is meets the above conditions otherwise print Safe
+Note: the * represents grass and # is a flower.
+Example Input:
+3
+# # #
+* * *
+* * *
+Example Output:
+Attack
+Example Input:
+4
+* * * #
+* * # *
+# * * *
+* # * *
+Example Output:
+Attack
+Example Input:
+4
+* * * #
+* # * *
+* * * *
+* # * *
+Example Output:
+Safe
+
+
+Mr. Jack very recently started gardening. He has a very specific way of planting new flowers. He denotes the position of his flowers with a
+single number. The number tells him the number of the flower.
+Given a series of positions, he is able to draw the map of the entire garden.
+For example, the positions 1 3 4 0 2 means his garden is like this:
+* * * # *
+# * * * *
+* * * * #
+* # * * *
+* * # * *
+Where the * represents grass and # is a flower.
+Write a program takes as input an integer array. The integer array has the positions and you have to print the garden. The number of
+rows in the garden is the same as the length of the input array.
+Input Format
+The first line contains n, the number of test cases.
+Each test case has m, the size of the array, followed by m integers - the elements of the arrays.
+Use the System.out.println() statement to print.
+Example Input:
+1
+5
+1 3 4 0 2
+Example Output:
+* * * # *
+# * * * *
+* * * * #
+* # * * *
+* * # * *
+Example Input:
+1
+3
+0 0 0
+Example Output
+# # #
+* * *
+* * 
+
+
+LAB 6
+
+Today, Monk went for a walk in a garden. There are many trees in the garden and each tree has an English alphabet on it. While Monk
+was walking, he noticed that all trees with vowels on it are not in good state. He decided to take care of them. So, he asked you to tell
+him the count of such trees in the garden.
+Note: The following letters are vowels: 'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o' and 'u'.
+Input:
+The first line consists of an integer T denoting the number of test cases.
+Each test case consists of only one string, each character of string denoting the alphabet (may be lowercase or uppercase) on a tree in
+the garden.
+Output:
+For each test case, print the count in a new line.
+Constraints:
+1 ≤ T ≤ 10
+1 ≤ length of string ≤ 10
+SAMPLE INPUT
+2
+nBBZLaosnm
+JHkIsnZtTL
+SAMPLE OUTPUT
+2
+1
+Explanation
+In test case 1, a and o are the only vowels. So, count=2
+
+
+Given a sentence, s, print each word of the sentence in a new line.
+Input Format
+The first and only line contains a sentence, s.
+Constraints
+1 ≤ len(s) ≤ 1000
+Output Format
+Print each word of the sentence in a new line.
+Sample Input 0
+This is C
+Sample Output 0
+This
+is
+C
+Explanation 0
+In the given string, there are three words ["This", "is", "C"]. We have to print each of these words in a new line.
+
+
+Input Format
+You are given two strings, a and b, separated by a new line. Each string will consist of lower case Latin characters ('a'-'z').
+Output Format
+In the first line print two space-separated integers, representing the length of a and b respectively.
+In the second line print the string produced by concatenating a and b (a + b).
+In the third line print two strings separated by a space, a' and b'. a' and b' are the same as a and b, respectively, except that their first
+characters are swapped.
+Sample Input
+abcd
+ef
+Sample Output
+4 2
+abcdef
+ebcd af
+Explanation
+a = "abcd"
+b = "ef"
+|a| = 4
+|b| = 2
+a + b = "abcdef"
+a' = "ebcd"
+b' = "af"
+
+
+Given a string, s, consisting of alphabets and digits, find the frequency of each digit in the given string.
+Input Format
+The first line contains a string, num which is the given number.
+Constraints
+1 ≤ len(num) ≤ 1000
+All the elements of num are made of English alphabets and digits.
+Output Format
+Print ten space-separated integers in a single line denoting the frequency of each digit from 0 to 9.
+Sample Input 0
+a11472o5t6
+Sample Output 0
+0 2 1 0 1 1 1 1 0 0
+Explanation 0
+In the given string:
+· 1 occurs two times.
+· 2, 4, 5, 6 and 7 occur one time each.
+The remaining digits 0, 3, 8 and 9 don't occur at all.
+
+LAB 7
+
+You are given the following code:
+class Series{
+int n;
+int[] elements;
+}
+public class Main{
+public static void main(String[] args){
+//Missing code goes here
+System.out.println("First " + fibonacci.n + " elements of Fibonacci are:");
+for(int i = 0; i<fibonacci.elements.length; i++)
+System.out.print(fibonacci.elements[i]+" ");
+}
+}
+You have to create a new object called fibonacci of the class Series and give correct values to it’s data. The output of this code should be:
+First 10 elements of Fibonacci are:
+1 1 2 3 5 8 13 21 34 55
+
+
+You are given the following code:
+class Student{
+boolean status;
+double frenchMarks;
+double chineseMarks;
+}
+public class Main{
+public static void main(String[] args){
+//Missing code goes here
+if(myStudent.status)
+{
+System.out.println("Student has passed");
+System.out.println("She scored " + myStudent.frenchMarks + " in French");
+System.out.println("She scored " + myStudent.chineseMarks + " in Chinese");
+}
+}
+}
+You have to create a new object called myStudent of the class Student and give correct values to it’s data. The output of this code should
+be:
+Student has passed
+She scored 92.0 in French
+She scored 76.0 in Chinese
+
+
+Fill in the blanks
+You are given the following code:
+class Movie{
+String movieName;
+int collections;
+}
+public class Main{
+public static void main(String[] args){
+//Missing code goes here
+System.out.println("Movie name is: "+myMovie.movieName);
+System.out.println("Collections are: "+myMovie.collections);
+}
+}
+You have to create a new object called myMovie of the class Movie and give correct values to it’s data. The output of this code should
+be:
+Movie name is: Bourne Ultimatum
+Collections are: 1000000
+
+
+You are given the following code:
+class Box{
+int height, width, length, volume;
+}
+public class Main{
+public static void main(String[] args){
+Box myBox_1 = new Box();
+myBox_1.height = 6;
+myBox_1.width = 4;
+myBox_1.length = 7;
+myBox_1.volume = myBox_1.height*myBox_1.width*myBox_1.length;
+//missing code goes here
+System.out.println("Box #1");
+System.out.println("Height: "+myBox_1.height+", Width: "+myBox_1.width+", Length: "+myBox_1.length+". Volume:
+"+myBox_1.volume);
+System.out.println("Box #2");
+System.out.println("Height: "+myBox_2.height+", Width: "+myBox_2.width+", Length: "+myBox_2.length+". Volume:
+"+myBox_2.volume);
+}
+}
+You have to copy the object myBox_1 into another object, myBox_2. In the myBox_2 object, the height, width & length each should be
+increased by 2.
+The output of this code should be:
+Box #1
+Height: 6, Width: 4, Length: 7. Volume: 168
+Box #2
+Height: 8, Width: 6, Length: 9. Volume: 432
+
+
+LAB 7(1)
+
+Exception handling is the process of responding to the occurrence, during computation, of exceptions – anomalous or exceptional
+conditions requiring special processing – often changing the normal flow of program execution. (Wikipedia)
+Java has built-in mechanism to handle exceptions. Using the try statement we can test a block of code for errors. The catch block
+contains the code that says what to do if exception occurs.
+This problem will test your knowledge on try-catch block.
+You will be given two integers and as input, you have to compute . If and are not bit signed integers or if is zero,
+exception will occur and you have to report it. Read sample Input/Output to know what to report in case of exceptions.
+Sample Input 0:
+10
+3
+Sample Output 0:
+3
+Sample Input 1:
+10
+Hello
+Sample Output 1:
+java.util.InputMismatchException
+Sample Input 2:
+10
+0
+Sample Output 2:
+java.lang.ArithmeticException: / by zero
+Sample Input 3:
+23.323
+0
+Sample Output 3:
+java.util.InputMismatchException
+
+
+Minimum eligibility to register driving license is
+1. Age should be above 18 years old
+2. Person should pass the road rules eligibility test(with above 80 marks)
+Write a program to approve or display suitable exceptions whenever a person tries to register for a driving license.
+Create two exception InvalidAgeForDrivingLicenseException and InvalidMarkForDrivingLicenseException to handle above
+scenarios.
+Create Main class to get Name, Age and Marks from user , check the data and approve or throw suitable exception.
+Note : Refer sample output for exact statement and format.
+Input Format :
+Name
+Age
+Marks obtained
+Output Format :
+Approved or suitable exception
+Note : Sample test cases for exact exception statement
+Sample testcases :
+Testcase 1 Input
+Guru
+33
+95
+Testcase 1 Output
+Approved
+Testcase 2 Input
+Guru
+2
+95
+Testcase 2 Output
+InvalidAgeForDrivingLicenseException: Age should be more than 18 years old
+Testcase 3 Input
+Guru
+-3
+95
+Testcase 3 Output
+InvalidAgeForDrivingLicenseException: Invalid age
+Testcase 4 Input
+Guru
+33
+75
+Testcase 4 Output
+InvalidMarkForDrivingLicenseException: Mark should be more than 80
+Testcase 5 Input
+Guru
+33
+-45
+Testcase 5 Output
+InvalidMarkForDrivingLicenseException: Invalid mark
+
+
+LAB 8
+
+Create a class ArrayListMain and in the main method get the names and store them in an ArrayList. After getting all the names, just
+display them in the same order.
+Input Format :
+Number of names(N) in first line as integer
+N names in separate lines
+Output Format :
+Print the names
+Sample testcases :
+Testcase 1 Input
+6
+KL Rahul
+Hetmyer
+Pierre
+Dube
+Walsh
+Pant
+Testcase 1 Output
+KL Rahul
+Hetmyer
+Pierre
+Dube
+Walsh
+Pant
+
+
+Use remove() and isEmpty() methods of the ArrayList API and implement them in our application. let's experiment with Hall class for
+performing these methods.
+Create a class named Hall having the following private attributes.
+Include getters and Setters for the attributes
+Include default and parameterized constructors.
+Format for parameterized constructor is
+Hall(String name, String contactNumber, Double costPerDay,String ownerName)
+Create a driver class called Main. In the Main method, obtain input from the console If the list is empty and a remove action is
+performed display "The list is empty" and terminate. Display the Hall details by iterating the Hall List and calling display() method after
+remove action.
+Hint: Use isEmpty() and remove() methods of ArrayList api.
+Use System.out.printf("%-20s%-20s%-20s%-20s") for displaying the Hall details in tabular form.
+Note: Strictly adhere to the Object-Oriented Specifications given in the problem statement.
+All class names, attribute names and method names should be the same as specified in the problem statement.
+Input Format :
+The first line of the input consists of n.
+Next input is the hall details.
+The next input is the index of the element to be deleted.
+Output Format :
+The output displays the hall details in tabular format after removing the element.
+Sample testcases :
+Testcase 1 Input
+3
+RR hall
+9854785654
+455
+Rajesh
+KK hall
+95478563221
+258
+Karthik
+PP hall
+9632541578
+357
+Praveen
+1
+Testcase 1 Output
+Name Contact Number CostperDay Owner Name
+RR hall 9854785654 455.0 Rajesh
+PP hall 9632541578 357.0 Praveen
+Testcase 2 Input
+0
+2
+Testcase 2 Output
+The list is empty
+
+
+While entering user names, We have to be very careful about the duplicate entries in the list.
+To make a correct and perfect report, we have to remove the duplicate elements in the list. Write a program that obtain a set of names
+and a search element and print it’s frequency.
+Input Format :
+The first line of the input consists of the number of names.
+Next input is the user names.
+The last input is the user name to be searched.
+Output Format :
+The output prints the frequency of the searched element.
+Sample testcases :
+Testcase 1 Input
+5
+alice
+bob
+ankit
+alice
+prajit
+alice
+Testcase 1 Output
+2
+
+
+Write a program to get the hall name details and store in the ArrayList and search the hall and display it's position details.
+Get hall names in the Main class and store it an ArrayList. Hall number is nothing but the position at which the hall is present in the list
+starting from 0.
+Refer sample input/output for other further details and format of the output.
+Input Format :
+The first line of the input is the number of halls.
+Next input is the hall names.
+The last input is the hall name to be searched.
+Output Format :
+The output prints the index of hall name if present otherwise hall not found. Refer sample output.
+Sample testcases :
+Testcase 1 Input
+3
+SPK
+DFG
+TRE
+DFG
+Testcase 1 Output
+1
+Testcase 2 Input
+3
+SPJ
+RWE
+HFG
+SPK
+Testcase 2 Output
+SPK hall is not found
+
+
+LAB 9
+
+You are given an integer array nums. The unique elements of an array are the elements that appear exactly once in the array.
+Return the sum of all the unique elements of nums.
+Example 1:
+Input:
+4
+1 2 3 2
+Output: 4
+Explanation: The unique elements are [1,3], and the sum is 4.
+Example 2:
+Input:
+5
+1 1 1 1 1
+Output: 0
+Explanation: There are no unique elements, and the sum is 0.
+Example 3:
+Input:
+5
+1 2 3 4 5
+Output: 15
+Explanation: The unique elements are [1,2,3,4,5], and the sum is 15.
+Constraints:
+1 <= nums.length <= 100
+1 <= nums[i] <= 100
+
+
+A pangram is a sentence where every letter of the English alphabet appears at least once.
+Given a string sentence containing only lowercase English letters, return true if sentence is a pangram, or false otherwise.
+Example 1:
+Input: sentence = "thequickbrownfoxjumpsoverthelazydog"
+Output: true
+Explanation: sentence contains at least one of every letter of the English alphabet.
+Example 2:
+Input: sentence = "rajalakshmi"
+Output: false
+Constraints:
+1 <= sentence.length <= 1000
+sentence consists of lowercase English letters.
+
+
+Try using a Set in your application. The property of Set is, it doesn't allow duplicate elements and does not maintain order like a list.
+Understand it by going through and completing the problem.
+Create a driver class called Main.
+In the Main method, obtain username input from the user.
+Add the usernames to a set.
+Display the number of unique usernames at the end of the program.
+Input Format :
+The first line of the input consists of the number of users.
+Next input is the user names.
+Output Format :
+The output displays the number of unique elements in the set.
+Sample testcases :
+Testcase 1 Input
+4
+Ram
+Christopher
+Ahamed
+Ahamed
+Testcase 1 Output
+3
+
+
+Let's dive deep into Set and explore its inbuilt functions. We usually perform equals operation to compare objects. Now try the same
+feature here. Experiment with equalsl() method in this problem.
+Create Main class. Obtain two sets of numbers and check whether they are same or not.
+Note:
+Strictly adhere to the Object-Oriented Specifications given in the problem statement.All class names, attribute names and method names
+should be the same as specified in the problem statement.
+Input Format :
+The first line of the input consists of the value of n that represents the number of elements in both sets..
+The next input is the elements of the first set separated by a space.
+The third input is the elements of the second set separated by a space.
+Output Format :
+The output prints whether the sets are equal or not.
+Sample testcases :
+Testcase 1 Input
+2
+10 20
+10 20
+Testcase 1 Output
+Both sets are same
+Testcase 2 Input
+3
+10 20 30
+40 50 60
+Testcase 2 Output
+Both sets are different
+
+
+LAB 10
+
+Given an integer array arr, count how many elements x there are, such that x + 1 is also in arr. If there are duplicates in arr, count them
+separately.
+Example 1:
+Input:
+3
+1 2 3
+Output: 2
+Explanation: 1 and 2 are counted cause 2 and 3 are in arr.
+Example 2:
+Input:
+8
+1 1 3 3 5 5 7 7
+Output: 0
+Explanation: No numbers are counted, cause there is no 2, 4, 6, or 8 in arr.
+Constraints:
+1 <= arr.length <= 1000
+0 <= arr[i] <= 1000
+
+
+Create a map with name as key and roll number as value. Search for a name and remove it.
+Input Format :
+The first line of the input consists of the value of n.
+Next input is the n names and roll numbers.
+The last input is the name to be removed.
+Output Format :
+The output prints the original list and the list after modification.
+Sample testcases :
+Testcase 1 Input
+2
+Alice
+8
+Mary
+12
+Alice
+Testcase 1 Output
+{Alice=8, Mary=12}
+{Mary=12}
+
+
+Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.
+Example 1:
+Input:
+3
+3 0 1
+Output: 2
+Explanation: n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not
+appear in nums.
+Example 2:
+Input:
+2
+0 1
+Output: 2
+Explanation: n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is the missing number in the range since it does not
+appear in nums.
+Example 3:
+Input:
+9
+9 6 4 2 3 5 7 0 1
+Output: 8
+Explanation: n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not
+appear in nums.
+Constraints:
+n == nums.length
+1 <= n <= 10^4
+0 <= nums[i] <= n
+All the numbers of nums are unique.
+
+
+Create a map with name as key and roll number as value. Search for a name and replace it’s value with a new value.
+Input Format :
+The first line of the input consists of the value of n.
+Next input is the n names and roll numbers.
+The third input is the key to be searched.
+The fourth input is the value to be replaced.
+Output Format :
+The first line of the output prints the map with original values.
+The next output prints the map with replaced values.
+Sample testcases :
+Testcase 1 Input
+2
+Alice
+8
+Mary
+12
+Alice
+14
+Testcase 1 Output
+{Alice=8, Mary=12}
+{Alice=14, Mary=12}
