@@ -6,8 +6,8 @@ public class Main3
         Scanner sc=new Scanner(System.in);
         int m=sc.nextInt();
         int n=sc.nextInt();
-        char mat[][]=new char[n][n];
-        for(int i=0;i<n;i++)
+        char mat[][]=new char[m][n];
+        for(int i=0;i<m;i++)
             for(int j=0;j<n;j++)
                 mat[i][j]=sc.next().charAt(0);
         int flag=0;
